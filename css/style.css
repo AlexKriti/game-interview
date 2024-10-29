@@ -90,7 +90,7 @@ nav li.logo img{
 
 header div.header-text{
     color: rgb(199, 255, 229);
-    width: 77.19%;
+    width: 70%;
 }
 
 header div.header-text button{
@@ -102,6 +102,12 @@ header div.header-text button{
     font-size: 24px;
     text-transform: uppercase;
     border: none;
+}
+
+@media(max-width : 1920px){
+    header div.header-text{
+        width: 77.19%;
+    }
 }
 
 @media(max-width : 1600px){
